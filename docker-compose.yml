@@ -1,0 +1,6 @@
+services:
+  db:
+    container_name: "BicycleInventory"
+    image: postgres:alpine
+    ports:
+      - '5432:5432'
